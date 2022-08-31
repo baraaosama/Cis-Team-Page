@@ -10,6 +10,10 @@ ul {
     padding: 0
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -788,6 +792,11 @@ footer .annual-partner h3 {
 }
 
 @media (max-width:683px) {
+    footer .information {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     footer .information .cis-logo {
         width: 100%;
     }
@@ -831,8 +840,8 @@ footer .copy-right .images img {
 @media (max-width:963px) {
     footer .copy-right {
         flex-direction: column;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 
     footer .copy-right p {
